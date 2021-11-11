@@ -1,0 +1,20 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "tariq",
+    "password": "Shanto@101",
+    "database": "graphapp",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+       "entity/**/*.ts"
+    ],
+    "migrations": [
+       "migration/**/*.ts"
+    ],
+    "subscribers": [
+       "subscriber/**/*.ts"
+    ]
+ }
+
